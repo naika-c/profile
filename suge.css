@@ -1,4 +1,4 @@
-img {
+.circle-image {
   border-radius: 50%;
   height: 300px;
   width: 300px;
@@ -16,21 +16,20 @@ h1 {
 }
 
 .container {
-  width: 500px;   /* This sets the width */
-  margin: 50 auto; /* This automatically sets left/right margins */
+  width: 500px;
+  margin: 50 auto;
 }
 
-.container {
+.card {
   background-color: #F0EDEE;
   border: 1px solid #f0edeeba;
   border-radius: 10px;
   box-shadow: 3px #f0edee43;
   padding: 30px;
-  margin: 50px auto;
+  margin: 15px 400px;
 }
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }

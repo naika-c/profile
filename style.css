@@ -54,12 +54,12 @@ a:hover {
   border-radius: 10px;
   box-shadow: 3px #f0edee43;
   padding: 30px;
-  margin: 15px auto;
+  margin: 15px 400px;
 }
 
 .container {
-  width: 500px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
+  width: 500px;
+  margin: 0 auto;
 }
 
 .text-center {
