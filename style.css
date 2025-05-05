@@ -54,7 +54,7 @@ a:hover {
   border-radius: 10px;
   box-shadow: 3px #f0edee43;
   padding: 30px;
-  margin: 15px 150px;
+  margin: 15px auto;
 }
 
 .container {
