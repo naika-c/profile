@@ -16,6 +16,12 @@ h1 {
   line-height: 2em;
 }
 
+h3 {
+  color: #0C6291;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
 .container {
   width: 500px;
   margin: 50 auto;
@@ -31,6 +37,11 @@ h1 {
   text-align: center;
 }
 
+a {
+  color: #B8B42D;
+  text-decoration: none;
+}
+
 #old_gold_button {
   background-color: #B8B42D;
   padding: 4px;
@@ -43,6 +54,16 @@ h1 {
 
 a:hover {
   font-size: 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+.button-medium > li {
+  font-size: 19px;
 }
 
 @media (max-width: 960px) {
