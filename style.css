@@ -1,0 +1,108 @@
+
+/* .atkinson-hyperlegible-mono-<uniquifier> {
+  font-family: "Atkinson Hyperlegible Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+body {
+  background-color: #f0edeeae;
+  color: #1A1423;
+  font-family: "Atkinson Hyperlegible Mono", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+h1 {
+  color: #D72638;
+  font-size: 24px;
+  line-height: 2em;
+}
+
+h2, h3 {
+  color: #0C6291;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+h3 {
+  color: #0C6291;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+#old_gold_button {
+  background-color: #B8B42D;
+  padding: 4px;
+  border-radius: 3px;
+  color: #F0EDEE;
+}
+
+a {
+  color: #B8B42D;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 20px;
+}
+
+.card-off-white {
+  background-color: #F0EDEE;
+  border: 1px solid #f0edeeba;
+  border-radius: 10px;
+  box-shadow: 3px #f0edee43;
+  padding: 30px;
+  margin: 15px auto;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.button-medium > li {
+  font-size: 19px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
