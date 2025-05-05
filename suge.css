@@ -27,6 +27,7 @@ h1 {
   box-shadow: 3px #f0edee43;
   padding: 30px;
   margin: 15px auto;
+  text-align: center;
 }
 
 #old_gold_button {
@@ -34,6 +35,12 @@ h1 {
   padding: 4px;
   border-radius: 3px;
   color: #F0EDEE;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  font-size: 20px;
 }
 
 @media (max-width: 960px) {
