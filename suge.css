@@ -64,6 +64,7 @@ a:hover {
 
 .button-medium > li {
   font-size: 19px;
+  padding-right: 60px;
 }
 
 @media (max-width: 960px) {
