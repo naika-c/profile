@@ -29,6 +29,13 @@ h1 {
   margin: 15px auto;
 }
 
+#old_gold_button {
+  background-color: #B8B42D;
+  padding: 4px;
+  border-radius: 3px;
+  color: #F0EDEE;
+}
+
 @media (max-width: 960px) {
   .container {
     width: 700px;
